@@ -1,0 +1,13 @@
+Требования на входящую строку:
++1. Нельзя использовать "=" и "&" в значении параметра.
+name=Vasya=super&surname=Pupkin&age=27
++2. Количетсво KeyValue должно быть больше 0.
+
++3. Формат каждого KeyValue должно быть Key=Value.
+=name=Vasya=
++4. Key не может быть пустым значением.
+=Vasya&surname=Pupkin&age=27
++5. Value может быть любым(Value может быть пустым)
+
++6. Key не может повторяться.
+name=Vasya&name=Pupkin&age=27
